@@ -11,8 +11,17 @@ Si voleu provar els codis només cal que instal·leu correctament el viewer i qt
 ```bash
 ./ViewerGrafics/GLarenaSL			-> Això per a executar Shaders
 ./ViewerGrafics/GLarenaPL			-> Això per a executar Plugins
-  
 ```
 
 Un cop dins, si presioneu la barra d'espai, us apareixeran les opcions del viewer per carregar shaders, crear-ne de nous...
+
+
+
+## Autor
+
+- **Marc Domènech i Vila** - *Initial work* - [MarcDV1999](https://github.com/MarcDV1999)
+
+## Llicencia
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/MarcDV1999/GRAU-G/blob/master/LICENSE) file for details
 
