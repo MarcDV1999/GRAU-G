@@ -1,0 +1,17 @@
+#!/usr/bin/env tcsh
+mkdir ~/.local >& /dev/null
+mkdir ~/.local/share >& /dev/null
+mkdir ~/.local/share/gtksourceview-3.0 >& /dev/null
+mkdir ~/.local/share/gtksourceview-3.0/language-specs >& /dev/null
+cp /assig/grau-g/glsl330.lang ~/.local/share/gtksourceview-3.0/language-specs/ 
+ls ~/.local/share/gtksourceview-3.0/language-specs/ 
+
+mkdir ~/.config/ >& /dev/null
+mkdir ~/.config/gedit/ >& /dev/null
+mkdir ~/.config/gedit/snippets/ >& /dev/null
+cp /assig/grau-g/glsl.xml ~/.config/gedit/snippets/glsl.xml
+ls ~/.config/gedit/snippets/
+echo
+echo Activa el plugin a gedit--Preferences--Plugins--Snippets
+
+
